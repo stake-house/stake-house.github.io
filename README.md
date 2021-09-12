@@ -1,0 +1,2 @@
+# wagyu.gg
+wagyu website
