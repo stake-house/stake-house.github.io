@@ -40,6 +40,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding-bottom: 1rem;
     margin-top: 50px;
     width: 100%;
 }
@@ -150,6 +151,7 @@ footer {
     margin: 1rem 0.5rem 0.5rem 0.5rem;
     font-size: 0.7rem;
     letter-spacing: 1px;
+    color: white;
 }
 
 .cardImage {
@@ -258,9 +260,15 @@ a {
     text-decoration: none !important;
 }
 
+a:hover{
+    color: #EE7112;
+}
+
+/*
 a:visited{
   color: #DEE2E6;
 }
+*/
 
 
 
@@ -278,7 +286,8 @@ a:visited{
     }
 
     .img{
-        padding-top: 20rem;
+        padding-top: 25rem;
+        margin-bottom: 20px;
         height: 20.5rem;
         width: 20.5rem;
     }
