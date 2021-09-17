@@ -278,6 +278,22 @@ a:visited{
 }
 */
 
+.cardDisabled{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0rem;
+    max-height: 25rem;
+    max-width: 14.5rem;
+    height: 360px;
+    width: auto;
+    box-shadow: 0px 1px 5px 0px #EE7112;
+    border: 2px solid #2F2E42;
+    border-radius: 2px;
+    background-color: rgba(38, 35, 39, 0.8);
+}
+
 
 
 
@@ -296,8 +312,8 @@ a:visited{
     .img{
         padding-top: 25rem;
         margin-bottom: 20px;
-        height: 20.5rem;
-        width: 20.5rem;
+        height: 50.5rem;
+        width: 50.5rem;
     }
 
     .twitterFeed{
