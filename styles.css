@@ -22,11 +22,10 @@ header {
 main {
     display: flex;
     flex-direction: row;
-    height: 95%;
+    height: 100%;
     width: 100%;
 }
 
-/*
 footer {
     display: flex;
     flex-direction: column;
@@ -35,22 +34,15 @@ footer {
     margin-top: 5%;
     margin-left: 15%;
     margin-right: 15%;
-}*/
-
-.footer-outerContainer{
-    display: flex;
-    height: 100%;
-    width: 100%;
-    flex-direction: column;
-    justify-content: flex-end;
 }
 
 .footer-upperContainer{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding-bottom: 1rem;
+    margin-top: 50px;
     width: 100%;
-    height: 5%;
 }
 
 .footer-upperText{
@@ -63,20 +55,18 @@ footer {
     width: 500px;
     height: auto;
 }
-.footer-lowerContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    margin-left: 10%;
-    margin-right: 10%;
-}
 
+.footer-outerContainer{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
+}
 
 .sidebar {
     width: 30%;
-    height: 95%;
+    height: 100%;
 }
 
 .heading {
@@ -94,7 +84,7 @@ footer {
 .outer-card-container {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     height: 100%;
     width: 100%;
@@ -214,8 +204,8 @@ footer {
   }
   
   .draw-border::before {
-    border-bottom-width: 2px;
-    border-left-width: 2px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
   }
   
   .draw-border::after {
@@ -288,13 +278,25 @@ a:visited{
     max-width: 14.5rem;
     height: 360px;
     width: auto;
+    border: 1px #EE7112;
     box-shadow: 0px 1px 5px 0px #EE7112;
     border: 2px solid #2F2E42;
     border-radius: 2px;
     background-color: rgba(38, 35, 39, 0.8);
 }
 
-
+.btnDisabled {
+    background: none;
+    cursor: pointer;
+    line-height: 1.5;
+    color: azure;
+    /*font: 700 1rem 'Roboto Slab', sans-serif;*/
+    padding: 1em 2em;
+    letter-spacing: 0.05rem;
+    margin: 1em;
+    margin-bottom: 2rem;
+    width: 13rem;
+  }
 
 
 @media screen and (max-width: 800px) {
@@ -306,17 +308,19 @@ a:visited{
     }
 
     .card{
-        margin-top: 15px;    
+        margin-top: 15px;
+        margin-bottom: 15px;    
     }
 
     .img{
         padding-top: 25rem;
         margin-bottom: 20px;
-        height: 50.5rem;
-        width: 50.5rem;
+        height: 20.5rem;
+        width: 20.5rem;
     }
 
-    .twitterFeed{
-        display: none;
+    .footer-outerContainer{
+        padding-top: 5.5rem;
     }
+
 }
