@@ -106,7 +106,7 @@ footer {
     display: flex;
     justify-items: center;
     padding-top: 1rem;
-    width: auto;
+    width: 25%;
     height: 100%;
 }
 
@@ -339,9 +339,19 @@ a:visited{
     }
 
     .img{
-        padding-top: 35rem;
-        margin-bottom: 20px;
-        height: 20.5rem;
-        width: 20.5rem;
+        padding-top: 40rem;
+        width: 100%;
+        height: auto;
     }
 }
+
+/*
+.img{
+    display: flex;
+    justify-items: center;
+    padding-top: 1rem;
+    width: 25%;
+    height: 100%;
+}
+
+*/
