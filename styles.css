@@ -40,6 +40,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding-top: 4rem;
     padding-bottom: 1rem;
     margin-top: 50px;
     width: 100%;
@@ -104,8 +105,9 @@ footer {
 .img{
     display: flex;
     justify-items: center;
-    width: 45%;
-    height: auto;
+    padding-top: 1rem;
+    width: auto;
+    height: 100%;
 }
 
 .twitterFeed{
@@ -323,10 +325,12 @@ a:visited{
     .inner-card-container{
         display: flex;
         flex-direction: column;
+        padding-top: 7rem;
     }
 
     .card{
-        margin-top: 15px;
+        
+        margin-top: 15rem;
         margin-bottom: 15px;    
     }
     .cardDisabled{
@@ -335,13 +339,9 @@ a:visited{
     }
 
     .img{
-        padding-top: 25rem;
+        padding-top: 35rem;
         margin-bottom: 20px;
         height: 20.5rem;
         width: 20.5rem;
-    }
-
-    .twitterFeed{
-        display: none;
     }
 }
