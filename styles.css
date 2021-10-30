@@ -130,7 +130,7 @@ footer {
     box-shadow: 0px 1px 5px 0px #EE7112;
     border: 2px solid #2F2E42;
     border-radius: 2px;
-    background-color: rgba(38, 35, 39, 0.8);
+    background-color: #383D43;
 }
 
 .cardTitle {
@@ -143,6 +143,15 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.lower-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    font-size: 9px;
+    max-height: 8px;
 }
 
 .cardTitle:hover {
@@ -167,6 +176,7 @@ footer {
     width: 250px;
     /*background-color: #005E56; 
     opacity: 20%; */
+    padding-top: 70px;
     margin-bottom: 1px;
 }
 
@@ -188,6 +198,7 @@ footer {
     border-top: 1px red;
     border-right: 1px red;
     border-left: 1px red;
+    background-color: #383D43;
 
 }
 
@@ -261,7 +272,7 @@ footer {
     padding: 1em 2em;
     letter-spacing: 0.05rem;
     margin: 1em;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     width: 13rem;
   }
   
@@ -345,14 +356,3 @@ a:visited{
         height: auto;
     }
 }
-
-/*
-.img{
-    display: flex;
-    justify-items: center;
-    padding-top: 1rem;
-    width: 25%;
-    height: 100%;
-}
-
-*/
